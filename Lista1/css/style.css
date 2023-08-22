@@ -1,0 +1,17 @@
+
+#primeiro_link {
+    background-color: rgb(25, 211, 87);
+}
+
+/*Mudanca no estilo do link*/
+a:link {
+    text-decoration: none;
+    color: #00F;
+    background-color: yellow;
+   }
+   
+a:hover {
+    text-decoration: underline;
+    color: #F00;
+    background-color: black;
+}
