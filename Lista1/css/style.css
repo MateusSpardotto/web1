@@ -30,7 +30,7 @@ th, td {
     padding: 8px;
     text-align: left;
   }
-  
+
 th {
     background-color: #f2f2f2;
   }
@@ -42,4 +42,35 @@ tbody {
 tfoot {
     background-color: #e0e0e0;
     font-weight: bold;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #0056b3;
   }
