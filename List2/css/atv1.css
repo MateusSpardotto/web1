@@ -1,0 +1,40 @@
+*{margin: 0px; padding: 0px; box-sizing: content-box;}
+
+.box{
+    display: inline-block;
+    border: 1px dotted black;
+    height: 20vh;
+    width: 20vh;
+}
+
+#box1{
+    background-color: red;
+}
+
+#box2{
+    background-color: purple;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#box3{
+    background-color: gray;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+}
+
+#box4{
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#box5{
+    background-color: yellow;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
