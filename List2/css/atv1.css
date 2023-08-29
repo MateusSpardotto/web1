@@ -6,6 +6,7 @@
     height: 20vh;
     width: 20vh;
     position: fixed;
+    outline: solid black;
 }
 
 #box1{
@@ -21,7 +22,8 @@
 #box3{
     background-color: gray;
     top: 50%;
-    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #box4{
