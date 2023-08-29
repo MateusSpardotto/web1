@@ -1,0 +1,60 @@
+*{margin: 0px; padding: 0px; box-sizing: content-box;}
+
+.cercle{
+    display: inline-block;
+    border: 1px dotted black;
+    height: 20vh;
+    width: 20vh;
+    position: fixed;
+    outline: solid black;
+    border-radius: 100px
+}
+
+#cercle1{
+    background-color: red;
+    background-image: url(../imgs/div1.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#cercle2{
+    background-color: purple;
+    top: 0px;
+    right: 0px;
+    background-image: url(../imgs/div2.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#cercle3{
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../imgs/div3.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#cercle4{
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../imgs/div4.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#cercle5{
+    background-color: yellow;
+    bottom: 0px;
+    right: 0px;
+    background-image: url(../imgs/div5.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
