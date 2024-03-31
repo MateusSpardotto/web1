@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título da Página</title>
+</head>
+<body>
+    <p>Essa é a estutura basuca do html.</p>
+</body>
+</html>
+
+<!DOCTYPE html>: Esta declaração define o tipo de documento e a versão do HTML sendo usada. No caso do HTML5, a declaração é <!DOCTYPE html>.
+
+<html>: Esta tag envolve todo o conteúdo da página HTML e indica o início do documento HTML.
+
+<head>: Esta tag contém metadados e informações sobre o documento, como o título da página, links para folhas de estilo (CSS), scripts JavaScript, entre outros. O conteúdo dentro da tag <head> não é exibido diretamente na página, mas é utilizado pelo navegador para configurar e processar o documento.
+
+<title>: Esta tag define o título da página, que é exibido na barra de título do navegador ou na aba da página. É importante para a identificação da página nos resultados de pesquisa e para os usuários saberem do que se trata a página.
+
+<body>: Esta tag envolve o conteúdo principal da página HTML, como texto, imagens, links, vídeos, formulários, entre outros. Todo o conteúdo visível na página é colocado dentro da tag <body>. O navegador exibe o conteúdo dentro da tag <body> na janela do navegador quando a página é carregada.
