@@ -1,0 +1,29 @@
+
+div{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    width: 25%;
+    height: 100px;
+}
+
+#retangulo1{
+ background-color: aqua;
+}
+
+#retangulo2{
+ background-color: chartreuse;   
+}
+
+#retangulo3{
+    background-color: blue;
+}
+
+#retangulo4{
+    background-color: brown;
+}
+
+#retangulo5{
+    background-color: blueviolet;
+}
