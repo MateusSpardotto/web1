@@ -1,0 +1,55 @@
+div{
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#circulo1{
+    background-color: aqua;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#circulo2{
+    background-color: chartreuse;   
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+
+#circulo3{
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+}
+
+#circulo4{
+    background-color: brown;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.centro {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da div para ocupar toda a altura da tela */
+}
+
+#circulo5{
+    background-color: brown;
+    width: 75px;
+    height: 75px;
+    right: 50%;
+}
