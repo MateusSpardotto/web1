@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    margin-bottom: 20px; /* Espaçamento entre as linhas */
+}
+
+span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Largura do círculo */
+    height: 50px; /* Altura do círculo */
+    border-radius: 50%; /* Torna o span um círculo */
+    border: 1px solid black; /* Borda preta */
+    margin: 0 5px; /* Espaçamento horizontal entre os círculos */
+}
