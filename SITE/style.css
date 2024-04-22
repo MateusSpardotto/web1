@@ -1,0 +1,127 @@
+.header { grid-area: header; }
+.main1 { grid-area: main1; }
+.main2 { grid-area: main2; }
+.main3 { grid-area: main3; }
+.main4 { grid-area: main4; }
+.footer { grid-area: footer; }
+
+.header{
+  width: 1500px;
+  display: flex;
+  font-weight: bold; 
+  margin: 0 auto;
+}
+
+.footer{
+  width: 1500px;
+  display: flex;
+  font-weight: bold; 
+  margin: 0 auto;
+}
+
+.bottonLink{
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main1'
+    'main2'
+    'main3'
+    'main4'
+    'footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200;
+    margin: 0 auto;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#imgLogo{
+  width: 100px;
+  height: 50px;
+}
+
+#imgMain1{
+  width: 1500px;
+  height: 800px;
+}
+
+#main1{
+  height: 800px;
+  margin: 0 auto;
+}
+
+#main2{
+  background-color: gainsboro;
+  height: 400px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.videos{
+  display: inline-block;
+  margin: 100px;
+}
+
+#main3{
+  background-color: rgb(6, 16, 51);
+  color: white;
+  height: 600px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+#main4{
+  background-color: gainsboro;
+  height: 600px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+#imgTendencia{
+  width: 500px;
+  height: 300px;
+}
+
+.classicos{
+  display: inline-block;
+  margin: 20px;
+}
+
+#imgclassico{
+  width: 300px;
+}
+
+p{
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none; /* Remover sublinhado */
+  color: inherit; /* Usar a cor padrão do texto */
+}
